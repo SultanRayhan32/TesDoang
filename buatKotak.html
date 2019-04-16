@@ -1,0 +1,38 @@
+<script>
+    var akhir = 27;
+    var awal = 0;
+    var pol = awal;
+    var pengurangan = akhir + 15
+    var temp = ''
+    for(var x = awal ; x <= akhir; x++){
+        temp += '*'
+        if(x === pol || x === akhir){
+            for(var u = 0; u <= akhir ; u++){
+                temp += '&nbsp;'
+                temp += '*' 
+                
+                // untuk menyamping
+            }
+            // if(x === pol){
+            //         for(var i = 0; i< akhir; i++){
+                        
+                        
+            //             temp += '<br/>'
+            //             temp += '*'
+            //         }
+            //     }
+        }
+        else if(x !== pol || x !== akhir){
+            for(var y = 0; y <= akhir * 2; y++){
+            temp += '&nbsp'
+        }
+        }
+        temp += '&nbsp;'
+        temp+= '*'
+        temp += '<br/>'
+    }
+    
+    document.write(temp)
+    
+    
+    </script>

@@ -1,0 +1,21 @@
+<script>
+
+    var temp = '';
+    var akhir = 10;
+    for(var x = 0; x < akhir; x++ ){
+        for(var u = 0 ; u < akhir; u++){
+            temp += '&nbsp;&nbsp;'
+        }
+        // if(x > 1){
+        //     for(var y = 0 ; y < akhir; y++){
+        //         temp += '&nbsp;&nbsp;'
+        //     }   
+        // }
+        for(var i = 0; i < akhir; i++){
+            temp += '*'
+        }
+        temp += '<br/>'
+        
+    }
+    document.write(temp)
+</script>

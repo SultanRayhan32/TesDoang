@@ -1,0 +1,17 @@
+<script>
+
+var temp = '';
+
+for(var x = 0 ; x < 10; x++){
+    for(var i = 0; i <= x ; i++){
+        temp+= '&nbsp;' // untuk spasinya
+    }
+    for(var u = 10; u > x; u-- ){
+        temp += '*'
+    }
+    temp += '<br/>'
+}
+
+document.write(temp)
+
+</script>
